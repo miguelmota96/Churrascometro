@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(236, 218, 60), rgb(255, 255, 255));
+}
+
+p {
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgb(189, 128, 15), transparent); 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0px 35px 0px;
+}
+
+.conteudo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    cursor:pointer;
+    background-color: black;
+    color: white;
+    width: 40%;
+    padding: 10px;
+    border-radius: 3px;
+    border-style: none;
+    text-align: center;
+    font-weight: bold;
+} 
+button:hover {
+    background:rgb(250, 255, 186);
+    color: black;
+    box-shadow: inset 0 0 0 3px #000000;
+    box-sizing: border-box;
+    transition: all 400ms ease;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 3px #000000;
+}
+
+.img-nav{
+    max-width:100px;
+    max-height:100px;
+}
+
+.nav{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 35px;
+padding: 20px;
+border-radius:50px 0px 0px 50px;
+background-color: #f0ce10;
+}
+
+.rodape {
+    background-color: #f0ce10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 10px;
+}
+
+.sub-sobre {
+    display: flex;
+    align-items: center;
+}
+
+.contato {
+    display: flex;
+    gap: 20px;
+}
+
+.img{
+    max-width:50px;
+    max-height:100px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-ft {
+    max-width:120px;
+    max-height:120px;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  .result img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0;
+    margin-right: 0.5rem;
+}
